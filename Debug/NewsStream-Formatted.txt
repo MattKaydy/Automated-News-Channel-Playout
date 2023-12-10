@@ -1,0 +1,26 @@
+Segment 1:
+https://vod.i-cable.com/NL_20231211_TAXI-0500(MON)_logo/NEWSHLS/NL_20231211_TAXI-0500(MON)_logo.m3u8
+https://vod.i-cable.com/NL_20231211_(ELEX)JOHN-0300(MON)_logo/NEWSHLS/NL_20231211_(ELEX)JOHN-0300(MON)_logo.m3u8
+https://vod.i-cable.com/NL_20231211_(ELEX)COUNT-2430(SUN)_logo/NEWSHLS/NL_20231211_(ELEX)COUNT-2430(SUN)_logo.m3u8
+https://vod.i-cable.com/N_20231211_(ELEX)DELAY_REAX(SUB)-2330(SUN)_logo/NEWSHLS/N_20231211_(ELEX)DELAY_REAX(SUB)-2330(SUN)_logo.m3u8
+Total length: 0:04:58
+
+Segment 2:
+..\Idents, Bumpers, Placeholders\SportsNews_Bumper.ts
+https://vod.i-cable.com/N_20231210_(S)3X3-1200(SUN)/NEWSHLS/N_20231210_(S)3X3-1200(SUN).m3u8
+Total length: 0:01:06
+
+Segment 3:
+https://vod.i-cable.com/NL_20231210_LSD-2200(SUN)_logo/NEWSHLS/NL_20231210_LSD-2200(SUN)_logo.m3u8
+https://vod.i-cable.com/NL_20231210_EXTEND-2300(SUN)_logo/NEWSHLS/NL_20231210_EXTEND-2300(SUN)_logo.m3u8
+https://vod.i-cable.com/NL_20231210_(ELEX)NIGHT-2100(SUN)_logo/NEWSHLS/NL_20231210_(ELEX)NIGHT-2100(SUN)_logo.m3u8
+Total length: 0:04:44
+
+Segment 4:
+..\Idents, Bumpers, Placeholders\SportsNews_Bumper.ts
+https://vod.i-cable.com/N_20231210_(S)RUGBY-1200(SAT) /NEWSHLS/N_20231210_(S)RUGBY-1200(SAT) .m3u8
+https://vod.i-cable.com/N_20231210_(S)SHOHEI-0600(SUN)_logo/NEWSHLS/N_20231210_(S)SHOHEI-0600(SUN)_logo.m3u8
+Total length: 0:01:34
+
+Last updated: 2023-12-11 06:39:52.131671
+Elapsed time: 0:01:49.094594

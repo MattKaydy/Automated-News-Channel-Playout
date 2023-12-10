@@ -1,0 +1,22 @@
+
+https://www.i-cable.com/graphql
+
+FULL:
+
+{"query":"      \n      query ($postId: [ID]) {\n        posts(first: 10, after: \"\", where:{\n          notIn: $postId,\n          orderby: {\n            field: DATE,\n            order: DESC\n          }\n        }) {\n          pageInfo {\n            hasPreviousPage\n            startCursor\n            hasNextPage\n            endCursor\n          }\n          edges {\n            node {\n              title\n              date\n              chineseDate\n              uri\n              link\n              featuredImage{\n                node{\n                  sourceUrl\n                  caption\n                }\n              }\n              mainAndSubCategory {\n                main\n                sub\n              }\n              categories {\n                edges {\n                  node {\n                    id\n                    name\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    ","variables":{}}
+
+NEWS ONLY:
+{
+            'query': "      \n      query getListsByCate($_category: Int) {\n        posts(first: 50, after: \"\", where:{categoryId: $_category}) {\n          pageInfo {\n            hasPreviousPage\n            startCursor\n            hasNextPage\n            endCursor\n          }\n          edges {\n            node {\n              title\n              link\n              mainAndSubCategory {\n                main\n                sub\n              }\n            }\n          }\n        }\n      }\n    ",
+            'variables': {"_category":37},
+            "operationName":"getListsByCate"
+        }
+
+
+HEADLINE ONLY:
+
+{"query":"      \n      query ($postId: [ID]) {\n        posts(first: 10, after: \"\", where:{\n          notIn: $postId,\n          orderby: {\n            field: DATE,\n            order: DESC\n          }\n        }) {\n          pageInfo {\n            hasPreviousPage\n            startCursor\n            hasNextPage\n            endCursor\n          }\n          edges {\n            node {\n              title\n            }\n          }\n        }\n      }\n    ","variables":{}}
+
+CLASSFIIED:
+
+{"query":"      \n      query getListsByCate($_category: Int) {\n        posts(first: 20, after: \"\", where:{categoryId: $_category}) {\n          pageInfo {\n            hasPreviousPage\n            startCursor\n            hasNextPage\n            endCursor\n          }\n          edges {\n            node {\n              id\n              databaseId\n              title\n              date\n              chineseDate\n              uri\n              link\n              featuredImage{\n                node{\n                  sourceUrl\n                  caption\n                }\n              }\n              mainAndSubCategory {\n                main\n                sub\n              }\n              categories {\n                edges {\n                  node {\n                    id\n                    name\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    ","variables":{"_category":37},"operationName":"getListsByCate"}

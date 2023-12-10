@@ -1,0 +1,5 @@
+Real time HSI, SSE, CSI:
+http://quotese.etnet.com.hk/content/etnetApp/fh_local.php?code=HSIS.HSI,CSI.000300,CSI.000001
+
+Global:
+https://www.etnet.com.hk/CF/etnet/mobile/indexes_global.php?lang=TC&arrowup=green

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    </head>
+  <style>
+    body {
+        color: white !important;
+        font-family: "Arial";
+        font-weight: 500;
+        font-size: 41px;
+        text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000;
+        background-color: rgba(0, 0, 0, 0);
+        transition: opacity 400ms
+    }
+  </style>
+  <body>
+    <table class="table-borderless" style="width: 269px; height: 112px; border-spacing: 0 1em;">
+        <tr>
+          <td id="Header_Chi" style="font-size: 34px !important; font-family: 'DFPHeiMedium-B5'; color: yellow;">恆指</td>
+          <td id="Price" style="text-align: right;"></td>
+        </tr>
+        <tr>
+          <td id="Header_Eng" style="font-size: 34px; color: rgba(255,255,255,0.5); text-shadow: none;">HSI</td>
+          <td style="text-align: right; "><a id="ChangeSymbol" style="color: green"></a><a id="Change"></a></td>
+        </tr>
+      </table>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      <script src="./finance-script.js" charset="utf-8"></script>
+  </body>
+</html>

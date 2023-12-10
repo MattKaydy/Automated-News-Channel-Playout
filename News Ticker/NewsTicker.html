@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>list</title>
+        <!-- CSS Code -->
+        <style type="text/css" scoped>
+            .list {
+                font-family: "DFPHeiMedium-B5";
+                font-weight: 500;
+                font-size: 70px;
+                text-shadow: -4px -4px 0 #000, 4px -4px 0 #000, -4px 4px 0 #000, 4px 4px 0 #000;
+                color: white;
+                padding: 0.1em;
+            }
+            marquee {
+                display: flex;
+                justify-content: space-between;
+                border: none;
+                padding: 0;
+                margin: 0;
+            }
+            .news-item {
+                margin-right: 222px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- HTML Code (13)-->
+        <marquee id="ticker" class="list" direction="left" scrollamount="13" behavior="scroll"> </marquee>
+        <script src="./news-ticker.js" charset="utf-8"></script>
+    </body>
+</html>

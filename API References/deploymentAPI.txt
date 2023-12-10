@@ -1,0 +1,41 @@
+URL:
+https://www.i-cable.com/graphql
+
+Get News Stream (Title, VideoUrl, Link, MainAndSubCategory):
+
+{
+	"query": "      \n      query ($postId: [ID]) {\n        posts(first: 50, after: \"\", where:{\n          notIn: $postId,\n          orderby: {\n            field: DATE,\n            order: DESC\n          }\n        }) {\n          pageInfo {\n            hasPreviousPage\n            startCursor\n            hasNextPage\n            endCursor\n          }\n          edges {\n            node {\n              title\n              date\n              link\n              videoUrl\n              mainAndSubCategory {\n                main\n                sub\n              }\n            }\n          }\n        }\n      }\n    ",
+	"variables": {}
+}
+
+Get Sports Steam (Cat: 321) (Title, VideoUrl, Link, MainAndSubCategory):
+
+{
+	"query": "      \n      query getListsByCate($_category: Int) {\n        posts(first: 50, after: \"\", where:{categoryId: $_category}) {\n          pageInfo {\n            hasPreviousPage\n            startCursor\n            hasNextPage\n            endCursor\n          }\n          edges {\n            node {\n              title\n              link\n              videoUrl\n              mainAndSubCategory {\n                main\n                sub\n              }\n            }\n          }\n        }\n      }\n    ",
+	"variables": {"_category":321},
+	"operationName":"getListsByCate"
+}
+
+Headers:
+{
+	'Accept': 'application/json, text/plain, */*',
+	'User-Agent': 'cableNews/3 CFNetwork/1410.0.3 Darwin/22.6.0',
+	'Accept-Language': 'en-GB,en;q=0.9',
+	'Accept-Encoding': 'gzip, deflate, br',
+	'Connection': 'keep-alive'
+}
+
+Get News Headlines:
+
+{
+	"query": "      \n      query ($postId: [ID]) {\n        posts(first: 50, after: \"\", where:{\n          notIn: $postId,\n          orderby: {\n            field: DATE,\n            order: DESC\n          }\n        }) {\n          pageInfo {\n            hasPreviousPage\n            startCursor\n            hasNextPage\n            endCursor\n          }\n          edges {\n            node {\n              title\n              date\n              link\n              mainAndSubCategory {\n                main\n                sub\n              }\n            }\n          }\n        }\n      }\n    ",
+	"variables": {}
+}
+
+Get Sport Headlines:
+
+{
+	"query": "      \n      query getListsByCate($_category: Int) {\n        posts(first: 50, after: \"\", where:{categoryId: $_category}) {\n          pageInfo {\n            hasPreviousPage\n            startCursor\n            hasNextPage\n            endCursor\n          }\n          edges {\n            node {\n              title\n              date\n              link\n              mainAndSubCategory {\n                main\n                sub\n              }\n            }\n          }\n        }\n      }\n    ",
+	"variables": {"_category":321},
+	"operationName":"getListsByCate"
+}
