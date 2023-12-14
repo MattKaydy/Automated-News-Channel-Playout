@@ -1,2 +1,2 @@
-start python "C:\Users\wwwim\Documents\OBS\Top News Channel Test\TopNewsBackend.py"
+start python "TopNewsBackend.py"
 exit

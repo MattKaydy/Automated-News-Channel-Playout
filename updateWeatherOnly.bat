@@ -1,2 +1,2 @@
-python "C:\Users\wwwim\Documents\OBS\Top News Channel Test\TopNewsBackend.py" "wxOnly"
+python "TopNewsBackend.py" "wxOnly"
 exit
