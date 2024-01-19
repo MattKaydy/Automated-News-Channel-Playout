@@ -4,6 +4,8 @@ A sophisticated automated news playout system that automatically collects news v
 
 The backend of the system is implemented with Python. The automation is implemented with Jenkins and some shell scripting. Some various parts of on-air elements are implemented with simple HTML5/CSS3 scripting as browser sources. 
 
+This is a fan-made project, this stream is for testing and creative purposes only with no intention of commercial use. All copyright goes to i-CABLE News Limited and Fantastic Television Limited.
+
 ## Overview
 
 The rationale of this project is to create a streaming system that automatically fetches, concatenates and play out the latest news streams from the Cable News API into editions of 20 minutes each, splitted into four segments. The goal is to build a automated continous streaming system that can be run 24/7 from just a single computer.
