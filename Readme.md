@@ -11,6 +11,10 @@ The rationale of this project is to create a streaming system that automatically
 ![image](./Screenshots/screenshot1.png)
 ![image](./Screenshots/screenshot2.png)
 
+Demo Live Output (Click the thumbnail below to redirect to YouTube):
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/di7OMN5Gpd8/0.jpg)](http://www.youtube.com/watch?v=di7OMN5Gpd8 "[直播中] 有線新聞：重點新聞 | Top News（訊號測試）（非官方，Fan-Made）")
+
 ### Programme Rundown
 
 | Minute of the Hour  | Programme |
